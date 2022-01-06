@@ -14,15 +14,16 @@ body {
 .firstcontainer {
     display: flex;
     flex-direction: column;
-    background: #1F2937;    
+    margin: 150px;  
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
+    background: #1F2937;
     padding-left: 150px;
     padding-right: 150px;
-    padding-top: 30px;
 }
 .headerlogo {
     color:#F9FAF8;
@@ -44,23 +45,90 @@ body {
 }        
 .banner {
    display: flex;
-   justify-content: center;
-   align-items: center; 
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 40px;
+   background: #1F2937;
+   padding: 150px 150px 100px 150px;
 }
 .banner_leftside {
-    
+   display:flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+   height: 260px;
+   width: 550px;
 }
-
-
-
-
-
-
-
+.banner_leftside .btext1 {
+    color:#f9faf8;
+    font-size:48px;
+    font-weight:900;
+}
+.banner_leftside .btext2 {
+    color:#e5e7eb;
+    font-size:18px;
+}
+.banner_signupbutton button {
+    background: #3882f6;
+    border-radius: 4px;
+    border: 0px;
+    color: #f9faf8;
+    padding: 10px 30px;
+    margin-top: 1em; 
+}
+.banner_rightside{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #747474;;
+    border-radius: 10px;
+    height: 260px;
+    width: 550px;
+    color:#f9faf8;
+    font-size:18px;
+}
+.secondcontainer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding-left: 150px;
+    padding-right: 150px;
+     
+}
+.sc_title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+    padding: 60px;
+}
+.sc_i_group {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+.sc_icon {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sc_pics {
+    width: 150px;
+    height:150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+.sctxt {
+    color:#1f2937;
+    text-align: center;
+    width: 150px;
+}
 .footer {
     display: flex;
     background: #1F2937;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 60px;
 }
