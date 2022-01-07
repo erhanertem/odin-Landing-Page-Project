@@ -12,6 +12,9 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 18px; 
 }
+image {
+    max-width=100%;
+}
 /*first container section*/
 .fc_container{
     display: flex;
